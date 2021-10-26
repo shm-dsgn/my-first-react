@@ -1,22 +1,34 @@
-import logo from './logo.svg';
+import practice from './practice.svg';
+import ide from './ide.svg'
+import logo from './qode_blue.svg'
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div>
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello. Soham Here
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      </div>
+      <div className="Greet">Hi Username.</div>
+
+      <header className="App-header">
+        <div className="Row">
+          <img src={ide} className="App-image" alt="logo" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu mauris maximus, porttitor mi nec.
+          </p>
+         <button className="Button">Open Online IDE</button>
+        </div>
+        <div><br></br></div>
+        <div className="Row">
+          <img src={practice} className="App-image" alt="logo" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu mauris maximus, porttitor mi nec.
+          </p>
+          <button className="Button">Start Practicing</button>
+        </div>
+        
       </header>
     </div>
   );
