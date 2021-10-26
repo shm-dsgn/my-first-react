@@ -41,6 +41,13 @@
   font-weight: 400;
   color: white;
   margin-top: 25px;
+  cursor:pointer;
+}
+
+.Button:hover{
+  background: white;
+  color: #0078D4;
+  border: 2px solid #0078D4;
 }
 
 .Row{
